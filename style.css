@@ -36,43 +36,66 @@
 }
 
 .low-list {
-  display: inline;
-  margin-left: 5px;
+    display: inline;
+    margin-left: 5px;
 }
 
 #search-icon {
-  width: 35px;
-  height: 35px;
+    width: 35px;
+    height: 35px;
 }
 
 .search {
-  float: right;
-  border-left: solid 1px silver;
-  border
+    float: right;
+    border-left: solid 1px silver;
 }
 
 .low-link {
-  color: silver;
-  text-decoration: none;
-  text-decoration-style: none;
-  font-size: 16px;
-  padding: 10px;
+    color: silver;
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 16px;
+    padding: 10px;
 }
 
 .nav-low {
-  border-bottom: solid 1px silver;
-  padding-bottom: 10px;
+    border-bottom: solid 1px silver;
+    padding-bottom: 10px;
 }
 
 .nav-low-list {
-  padding: 10px;
+    padding: 10px;
 }
 
 .low-list a:hover {
-  color: black;
+    color: black;
 }
 
 .my_list a:hover,
 .my_list1 a:hover {
-  color: white;
+    color: white;
+}
+
+.affordable_agri {
+    width: 130%;
+    padding: 55px 0 0 10px ;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 45%;
+}
+
+.affordable {
+    width: 65%;
+    height: 75%;
+    position: relative;
+    left: 245px;
+    top: 55px;
 }
