@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    background-color: black;
+    height: 30px;
+}
+
+.nav_link, 
+.nav_link1 {
+    color: white;
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 15px;
+}
+
+.my_list {
+    display: inline;
+    padding: 15px;
+    position: relative;
+    top: 5px;
+}
+
+.my_list1 {
+    display: inline;
+    padding: 15px;
+    position: relative;
+    bottom: 13px;
+    left: 70%;
+}
+
