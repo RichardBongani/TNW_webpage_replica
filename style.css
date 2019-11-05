@@ -100,7 +100,10 @@
     top: 55px;
 }
 
-.fund-main, .apps_gear_tech-main {
+.fund-main,
+.apps_gear_tech-main,
+.middle
+ {
     display: flex;
 }
 
@@ -109,18 +112,18 @@
     height:60px;
 }
 
-.latest-img2, 
+.latest-img2,
 .latest-img {
     height:150px;
     width: 280px;
 }
 
-.latest-news, 
+.latest-news,
 .latest {
     flex: 1;
 }
 
-.latest-news1, 
+.latest-news1,
 .news_main {
     display: flex;
 }
@@ -137,7 +140,7 @@
 .reprot1 {
     color: lightslategrey;
     font-size: 15px;
-} 
+}
 
 .latest-link {
     color: red;
@@ -147,8 +150,8 @@
     color: black;
 }
 
-.rep-link, 
-.news-link, 
+.rep-link,
+.news-link,
 .latest-link {
     text-decoration: none;
 }
@@ -157,3 +160,39 @@
     padding-top: 100px;
 }
 
+.bottom {
+    display: flex;
+}
+
+.creative,
+.podium,
+.insights,
+.launch,
+.distract
+ {
+    flex: 1;
+}
+
+.bottom,
+.middle,
+.apps_gear_tech-main {
+    padding-top: 55px;
+}
+
+.fund-header li{
+    display: inline;
+    float: right;
+    margin-left: 10px;
+    font-size: 19px;
+    padding-top: 8px;
+    padding-right: 15px;
+    border-right: 1px Solid;
+}
+
+.funding {
+    margin-top: 55px;
+}
+
+.fund-header {
+    margin-bottom: 20px;
+}
