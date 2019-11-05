@@ -9,7 +9,7 @@
 }
 
 .news a{
-  color: white;
+    color: white;
 }
 
 .nav_link,
@@ -98,4 +98,8 @@
     position: relative;
     left: 245px;
     top: 55px;
+}
+
+.fund-main, .apps_gear_tech-main {
+    display: flex;
 }
