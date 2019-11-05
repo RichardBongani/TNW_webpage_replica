@@ -102,8 +102,7 @@
 
 .fund-main,
 .apps_gear_tech-main,
-.middle
- {
+.middle {
     display: flex;
 }
 
@@ -152,7 +151,8 @@
 
 .rep-link,
 .news-link,
-.latest-link {
+.latest-link, 
+.foo-link {
     text-decoration: none;
 }
 
@@ -160,7 +160,9 @@
     padding-top: 100px;
 }
 
-.bottom {
+.bottom, 
+.latest-news, 
+.latest-news2 {
     display: flex;
 }
 
@@ -168,8 +170,7 @@
 .podium,
 .insights,
 .launch,
-.distract
- {
+.distract {
     flex: 1;
 }
 
@@ -195,4 +196,79 @@
 
 .fund-header {
     margin-bottom: 20px;
+}
+
+.machine-img, 
+.cert-img {
+    width: 250px;
+    height: 150px;
+}
+
+.speed, 
+.cloud, 
+.vmware, 
+.Machine-learning, 
+.certificate, 
+.microsoft, 
+.microsoft, 
+.vpn {
+    flex: 1;
+}
+
+.latest-container {
+    padding-top: 65px;
+}
+
+.see-all {
+    position: relative;
+    left: 1150px;
+    bottom: 20px;
+}
+
+.see-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.latest-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.footer2 {
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.footer1 {
+    background-color: 	#181818;
+}
+
+.footer2-link {
+    color: white;
+}
+
+.next-web {
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foo-link {
+    display: inline;
+    margin: 5px;
+}
+
+.links {
+    text-align: center;
+}
+
+.foo-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
 }
