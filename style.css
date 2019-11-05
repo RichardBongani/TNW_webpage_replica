@@ -103,3 +103,57 @@
 .fund-main, .apps_gear_tech-main {
     display: flex;
 }
+
+.story-investmentCard-company-image {
+    width: 60px;
+    height:60px;
+}
+
+.latest-img2, 
+.latest-img {
+    height:150px;
+    width: 280px;
+}
+
+.latest-news, 
+.latest {
+    flex: 1;
+}
+
+.latest-news1, 
+.news_main {
+    display: flex;
+}
+
+.news_main {
+    padding-top: 50px;
+}
+
+.reprot {
+    color: black;
+    font-weight: bold;
+}
+
+.reprot1 {
+    color: lightslategrey;
+    font-size: 15px;
+} 
+
+.latest-link {
+    color: red;
+}
+
+.latest-link:hover {
+    color: black;
+}
+
+.rep-link, 
+.news-link, 
+.latest-link {
+    text-decoration: none;
+}
+
+.latest-main-content {
+    padding-top: 100px;
+}
+
