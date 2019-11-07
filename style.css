@@ -326,6 +326,8 @@ body {
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/theft-malaysia-bitcoin-tunnel-dig-rill-miners-796x448.jpg");
     height: 200px;
     background-size: cover;
+    position: relative;
+    bottom: 420px;
 }
 
 .affordable2 {
@@ -333,7 +335,7 @@ body {
     background-size: cover;
     height: 208px;
     position: relative;
-    top: 10px;
+    bottom: 210px;
 }
 
 .main-cover {
@@ -357,16 +359,23 @@ body {
     position: absolute;
     top: 420px;
     left: 10px;
+    z-index: 0;
 }
 
-.cover-header ul {
-  list-style: none;
+.cover-header section {
+    list-style: none;
 }
 
-.cover-header li {
-  display: inline;
+.cover-header p {
+    display: inline;
 }
 
 .cover-title a {
-  text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+
+.noCamels, .camels {
+    padding-top: 110px;
+    padding-left: 15px;
 }
