@@ -151,7 +151,7 @@
 
 .rep-link,
 .news-link,
-.latest-link,
+.latest-link, 
 .foo-link {
     text-decoration: none;
 }
@@ -160,8 +160,8 @@
     padding-top: 100px;
 }
 
-.bottom,
-.latest-news,
+.bottom, 
+.latest-news, 
 .latest-news2 {
     display: flex;
 }
@@ -197,19 +197,19 @@
     margin-bottom: 20px;
 }
 
-.machine-img,
+.machine-img, 
 .cert-img {
     width: 250px;
     height: 150px;
 }
 
-.speed,
-.cloud,
-.vmware,
-.Machine-learning,
-.certificate,
-.microsoft,
-.microsoft,
+.speed, 
+.cloud, 
+.vmware, 
+.Machine-learning, 
+.certificate, 
+.microsoft, 
+.microsoft, 
 .vpn {
     flex: 1;
 }
@@ -244,7 +244,7 @@
 }
 
 .footer1 {
-    background-color: 	#181818;
+    background-color: #181818;
     height: 120px;
 }
 
@@ -298,34 +298,4 @@
     border-radius: 100%;
     height: 40px;
     width: 40px;
-}
-
-.red {
-  color: red;
-}
-
-.reprot:hover {
-  color: red;
-}
-
-.affordable_agri {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/syndication28-796x417.jpg");
-
-}
-
-.affordable1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design13-796x417.png");
-}
-
-.affordable2 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/moonday-796x417.jpg");
-}
-
-.main-cover {
-  display: flex;
-  flex: 1;
-}
-
-.main-content1{
-  flex: 3;
 }
