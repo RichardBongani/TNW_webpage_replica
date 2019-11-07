@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .nav-container {
     background-color: black;
     height: 30px;
@@ -292,10 +296,59 @@
     top: 15px;
 }
 
+.red { 
+    color: red; 
+}
+
+.reprot:hover {
+    color: red; 
+}
+
+.my_list1 a:hover { 
+    color: white; 
+}
+
 .smedia li {
     background-color: gray;
     border-radius: 1px solid black;
     border-radius: 100%;
     height: 40px;
     width: 40px;
+}
+
+.affordable_agri { 
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/synd7-796x417.jpg"); 
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.affordable1 {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/theft-malaysia-bitcoin-tunnel-dig-rill-miners-796x448.jpg"); 
+    height: 200px;
+    background-size: cover;
+}
+
+.affordable2 { 
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design1-796x417.png"); 
+    background-size: cover;
+    height: 208px;
+    position: relative;
+    top: 10px;
+}
+
+.main-cover {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+    justify-content: space-between;
+}
+
+.main-content1 {
+    flex: 2;
+}
+
+.main-content {
+    flex: 1.4;
+    position: relative;
+    left: 40px;
 }
