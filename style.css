@@ -434,6 +434,7 @@ body {
     padding-top: 60px;
     justify-content: space-between;
     justify-content: space-between;
+    margin-bottom: -150px;
 }
 
 .main-content1 {
@@ -542,4 +543,60 @@ body {
 
 .apps-gear a:hover {
     color: black;
+}
+
+p,
+h3,
+h4,
+h2,
+h1,
+a {
+  font-family: Shentox, sans-serif;
+}
+
+.services4 p,
+.services3 p,
+.services2 p,
+.services1 p {
+  font-size : 14px;
+  color: #505050;
+}
+
+.funding a {
+  text-decoration: none;
+}
+
+.services4 p:hover,
+.services3 p:hover,
+.services2 p:hover,
+.services1 p:hover {
+  color: black;
+}
+
+.left-right-border {
+  border-left: 1px red solid;
+  border-right: 1px red solid;
+  padding: 0 20px;
+}
+
+.list-fun a:hover {
+  color: black;
+}
+
+.font-size-14 p,
+.font-size-14 a {
+  font-size: 14px;
+}
+
+del {
+  font-size: 14px;
+  color: silver;
+}
+
+.smedia i {
+  color: white;
+}
+
+.bck-clr header {
+  top: 330px;
 }
