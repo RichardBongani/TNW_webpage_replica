@@ -725,12 +725,12 @@ del {
     }
 
     .reprot {
-      margin-left: -250px;
+    margin-left: -250px;
     }
 
     .reprot1 {
-      margin-top: -40px;
-      margin-left: 100px;
+    margin-top: -40px;
+    margin-left: 100px;
     }
 
     .latest-news p {
@@ -784,5 +784,47 @@ del {
         border-right: none;
         position: relative;
         right: 20px;
+    }
+
+    .main-cover {
+        width: 100%;
+    }
+
+    .main-cover{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .affor1 {
+        width: 107.5%;
+        height: 150px;
+    }
+
+    .affordable1, 
+    .affordable2 {
+        position: relative;
+        right: 85px;
+        height: 150px;
+        width: 110%;
+        margin: 5px;
+    }
+
+    .affordable2 {
+        position: relative;
+        bottom: 265px;
+    }
+
+    .affordable_agri {
+        position: relative;
+        right: 30px;
+    }
+
+    .affor1 h2 h5 {
+    font-size: 10px;
+    }
+
+    .tnw-logo {
+        display: none;
     }
 }
