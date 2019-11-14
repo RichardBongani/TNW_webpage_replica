@@ -10,7 +10,7 @@ body {
 }
 
 .tnw-gif {
-  display: none;
+    display: none;
 }
 
 .nav-container {
@@ -682,4 +682,97 @@ del {
   .social {
     left: 260px;
   }
+}
+
+@media only screen and (max-width: 620px){
+    .latest-grid, .latest-news, .apps_gear_tech-main, .fund-main  {
+        display: grid;
+        grid-template-columns:1fr;
+    }
+
+    .apps_gear_tech-main {
+        position: relative;
+        bottom: 85px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .smedia {
+        position: relative;
+        right: 230px;
+    }
+
+    .latest-img2, 
+    .latest-img, 
+    .machine-img, 
+    .cert-img {
+        width: 85px;
+        height:75px;
+        padding: 7px;
+    }
+
+    .latest-news div {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-right: 150px;
+        width: 790px;
+    }
+
+    .latest-news1 div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .latest-news p {
+        position: relative;
+        right: 220px;
+        top: 15px;
+        font-size: 15px;
+    }
+
+    .footer2 p {
+        width:50%;
+        position: relative;
+        bottom: 30px;
+        left: 110px;
+    }
+
+    .latest-container {
+        position: relative;
+        bottom: 100px;
+    }
+
+    .see-link {
+    position: relative;
+    right: 830px;
+    font-size: 15px;
+    }
+
+
+    .space-apps-gear {
+        padding-top: 25px;
+    }
+
+    .price, .up {
+        width: 99%;
+    }
+
+    .list-fun {
+        width: 60%;
+    }
+
+    .list-fun a {
+        font-size: 15px;
+    }
+
+    .fund-index {
+        font-size: 25px;
+    }
+
+    .left-right-border {
+        border-left: none;
+        border-right: none;
+        position: relative;
+        right: 20px;
+    }
 }
