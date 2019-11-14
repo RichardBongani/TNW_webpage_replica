@@ -473,7 +473,7 @@ body {
 }
 
 .noCamels, .camels {
-    padding-top: 110px;
+    padding-top: 85px;
     padding-left: 15px;
 }
 
@@ -793,7 +793,7 @@ del {
     .main-cover{
         display: grid;
         grid-template-columns: 1fr;
-        
+
     }
 
     .affor1 {
@@ -801,7 +801,7 @@ del {
         height: 150px;
     }
 
-    .affordable1, 
+    .affordable1,
     .affordable2 {
         position: relative;
         right: 85px;
@@ -826,5 +826,9 @@ del {
 
     .tnw-logo {
         display: none;
+    }
+
+    .para-camels {
+        margin-top: -250px;
     }
 }
