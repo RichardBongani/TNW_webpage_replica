@@ -702,9 +702,9 @@ del {
         right: 230px;
     }
 
-    .latest-img2, 
-    .latest-img, 
-    .machine-img, 
+    .latest-img2,
+    .latest-img,
+    .machine-img,
     .cert-img {
         width: 85px;
         height:75px;
@@ -718,9 +718,19 @@ del {
         width: 790px;
     }
 
-    .latest-news1 div{
+    .latest-news1 a {
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        width: 700px;
+    }
+
+    .reprot {
+      margin-left: -250px;
+    }
+
+    .reprot1 {
+      margin-top: -40px;
+      margin-left: 100px;
     }
 
     .latest-news p {
