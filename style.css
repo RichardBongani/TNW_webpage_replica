@@ -76,7 +76,7 @@ body {
     color: silver;
     text-decoration: none;
     text-decoration-style: none;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .img-fund {
@@ -136,7 +136,7 @@ body {
     color: silver;
     text-decoration: none;
     text-decoration-style: none;
-    font-size: 16px;
+    font-size: 12px;
     padding: 10px;
 }
 
@@ -645,11 +645,30 @@ del {
   top: 20px;
 }
 
+.response-logo  {
+    display: none;
+}
+
+.navigation2 {
+    position: relative;
+    right: 50px;
+}
+
+
 @media only screen and (max-width: 992px) {
   .latest-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .response-logo  {
+    display: block;
+    height: 30px;
+    width: 105px;
+    background-color: #f42;
+    float: left;
+    padding: 33px 10px;
+}
 
   .farm {
     display: none;
@@ -682,6 +701,56 @@ del {
   .social {
     left: 260px;
   }
+
+.main-cover {
+    position: relative;
+    top: 25px;
+}
+
+.low-link, 
+.nav_link, 
+.nav_link1 {
+    font-size: 12px;
+}
+
+.nav_link1 {
+    position: relative;
+    right: 95px;
+}
+
+.my_list1, .my_list {
+    margin: -8px;
+}
+
+.navigation2 {
+    position: relative;
+    right: 35px;
+}
+
+.nav-low {
+    height: 31px;
+}
+
+.nav-low-list {
+    position: relative;
+    bottom: 10px;
+}
+
+}
+
+@media only screen and (max-width: 800px ){
+    .navigation2 {
+        display: none;
+    }
+
+    .nav-low-list {
+        position: relative;
+        top: 10px;
+    }
+
+    .nav-low {
+        height: 48px;
+    }
 }
 
 @media only screen and (max-width: 620px){
@@ -695,6 +764,11 @@ del {
         bottom: 85px;
         font-weight: bold;
         font-size: 17px;
+    }
+
+    .main_container {
+        position: relative;
+        bottom: 50px;
     }
 
     .smedia {
@@ -831,4 +905,22 @@ del {
     .para-camels {
         margin-top: -250px;
     }
+
+    .response-logo  {
+        display: block;
+        height: 30px;
+        width: 105px;
+        background-color: #f42;
+        float: left;
+        padding: 33px 10px;
+    }
+
+    .nav-sub-container {
+        display: none;
+    }
+
+    .nav-container {
+        display: none;
+    }
+
 }
