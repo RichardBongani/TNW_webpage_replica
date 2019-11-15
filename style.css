@@ -667,7 +667,7 @@ del {
     .latest-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-}
+    }
 
     .response-logo  {
         display: block;
@@ -753,6 +753,19 @@ del {
         padding-top: 10px;
     }
 
+    main {
+        margin-left: -30px;
+    }
+
+    .latest-img2 {
+        width: 200px;
+        height: 130px;
+    }
+
+    .space-apps-gear {
+        width: 365px;
+        padding: 0px;
+    }
 }
 
 @media only screen and (max-width: 800px ){
@@ -771,9 +784,9 @@ del {
 }
 
 @media only screen and (max-width: 665px){
-    .latest-grid, 
-    .latest-news, 
-    .apps_gear_tech-main, 
+    .latest-grid,
+    .latest-news,
+    .apps_gear_tech-main,
     .fund-main  {
         display: grid;
         grid-template-columns:1fr;
