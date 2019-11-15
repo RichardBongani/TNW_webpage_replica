@@ -132,8 +132,8 @@ body {
 }
 
 #search-icon {
-  transform: scale(-1, 1);
-  padding: 20px 5px 0px 0px;
+    transform: scale(-1, 1);
+    padding: 20px 5px 0px 0px;
 
 }
 
@@ -203,13 +203,13 @@ body {
 }
 
 .latest-news {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .latest-news1 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .news_main {
@@ -573,81 +573,81 @@ h2,
 h1,
 a,
 h5 {
-  font-family: Shentox, sans-serif;
+    font-family: Shentox, sans-serif;
 }
 
 .services4 p,
 .services3 p,
 .services2 p,
 .services1 p {
-  font-size : 14px;
-  color: #505050;
+    font-size : 14px;
+    color: #505050;
 }
 
 .funding a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .services4 p:hover,
 .services3 p:hover,
 .services2 p:hover,
 .services1 p:hover {
-  color: black;
+    color: black;
 }
 
 .left-right-border {
-  border-left: 1px red solid;
-  border-right: 1px red solid;
-  padding: 0 20px;
+    border-left: 1px red solid;
+    border-right: 1px red solid;
+    padding: 0 20px;
 }
 
 .list-fun a:hover {
-  color: black;
+    color: black;
 }
 
 .font-size-14 p,
 .font-size-14 a {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 del {
-  font-size: 14px;
-  color: silver;
+    font-size: 14px;
+    color: silver;
 }
 
 .smedia i {
-  color: white;
+    color: white;
 }
 
 .bck-clr header {
-  top: 330px;
+    top: 330px;
 }
 
 .tnw-logo {
-  position: absolute;
-  bottom: 300px;
+    position: absolute;
+    bottom: 300px;
 }
 
 .fund-index {
-  float: left;
+    float: left;
 }
 
 
 .fund-main {
-  padding-top: 20px;
-  clear: both;
+    padding-top: 20px;
+    clear: both;
 }
 
 .apps_gear_tech-main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 70px;
 }
 
 .time-date {
-  position: absolute;
-  right: 40px;
-  top: 20px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
 }
 
 .response-logo  {
@@ -664,94 +664,94 @@ del {
 }
 
 @media only screen and (max-width: 992px) {
-  .latest-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .response-logo  {
-    display: block;
-    height: 30px;
-    width: 105px;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
-    float: left;
-    padding: 33px 10px;
+    .latest-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
 }
 
-  .farm {
-    display: none;
-  }
+    .response-logo  {
+        display: block;
+        height: 30px;
+        width: 105px;
+        background: linear-gradient(to bottom right,#c09,#f42 85%);
+        float: left;
+        padding: 33px 10px;
+    }
 
-  .fund-main {
-    margin-left: -40px;
-  }
+    .farm {
+        display: none;
+    }
 
-  .fund-header {
-    margin-left: -10px;
-  }
+    .fund-main {
+        margin-left: -40px;
+    }
 
-  .list-fun {
-    clear: both;
-  }
+    .fund-header {
+        margin-left: -10px;
+    }
 
-  .fund-header li {
-    float: left;
-  }
+    .list-fun {
+        clear: both;
+    }
 
-  .apps_gear_tech-main {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .fund-header li {
+        float: left;
+    }
 
-  .latest-news {
-    grid-template-columns: repeat(3, 1fr);
-  }
+    .apps_gear_tech-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-  .social {
-    left: 260px;
-  }
+    .latest-news {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
-.main-cover {
-    position: relative;
-    top: 25px;
-}
+    .social {
+        left: 260px;
+    }
 
-.low-link,
-.nav_link,
-.nav_link1 {
-    font-size: 12px;
-}
+    .main-cover {
+        position: relative;
+        top: 25px;
+    }
 
-.nav_link1 {
-    position: relative;
-    right: 95px;
-}
+    .low-link,
+    .nav_link,
+    .nav_link1 {
+        font-size: 12px;
+    }
 
-.my_list1, .my_list {
-    margin: -8px;
-}
+    .nav_link1 {
+        position: relative;
+        right: 95px;
+    }
 
-.navigation2 {
-    position: relative;
-    right: 35px;
-}
+    .my_list1, .my_list {
+        margin: -8px;
+    }
 
-.nav-low {
-    height: 31px;
-}
+    .navigation2 {
+        position: relative;
+        right: 35px;
+    }
 
-.nav-low-list {
-    position: relative;
-    bottom: 10px;
-}
+    .nav-low {
+        height: 31px;
+    }
 
-  .search {
-      height: 35px;
-      margin-top: -5px;
-  }
+    .nav-low-list {
+        position: relative;
+        bottom: 10px;
+    }
 
-  #search-icon {
-    padding-top: 10px;
-  }
+    .search {
+        height: 35px;
+        margin-top: -5px;
+    }
+
+    #search-icon {
+        padding-top: 10px;
+    }
 
 }
 
@@ -771,7 +771,10 @@ del {
 }
 
 @media only screen and (max-width: 665px){
-    .latest-grid, .latest-news, .apps_gear_tech-main, .fund-main  {
+    .latest-grid, 
+    .latest-news, 
+    .apps_gear_tech-main, 
+    .fund-main  {
         display: grid;
         grid-template-columns:1fr;
     }
@@ -816,12 +819,12 @@ del {
     }
 
     .reprot {
-    margin-left: -250px;
+        margin-left: -250px;
     }
 
     .reprot1 {
-    margin-top: -40px;
-    margin-left: 100px;
+        margin-top: -40px;
+        margin-left: 100px;
     }
 
     .latest-news p {
@@ -844,9 +847,9 @@ del {
     }
 
     .see-link {
-    position: relative;
-    right: 830px;
-    font-size: 15px;
+        position: relative;
+        right: 830px;
+        font-size: 15px;
     }
 
 
@@ -912,7 +915,7 @@ del {
     }
 
     .affor1 h2 h5 {
-    font-size: 10px;
+        font-size: 10px;
     }
 
     .tnw-logo {
