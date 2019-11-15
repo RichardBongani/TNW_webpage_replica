@@ -277,12 +277,19 @@ body {
     padding-right: 15px;
 }
 
-.funding {
-    margin-top: 55px;
+.funding, .apps_gear_tech-main {
+    margin-top: 50px;
+    position: relative;
+    right: 30px;
+}
+
+.apps_gear_tech-main  {
+    position: relative;
+    bottom: 150px;
 }
 
 .fund-header {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .machine-img,
@@ -304,12 +311,12 @@ body {
 
 .latest-container {
     position: relative;
-    bottom: 25px;
+    bottom: 125px;
 }
 
 .see-all {
     position: relative;
-    left: 1125px;
+    left: 1095px;
     bottom: 20px;
 }
 
@@ -509,6 +516,8 @@ body {
     position: relative;
 }
 
+
+
 .most-popular {
     position: absolute;
     bottom: 100px;
@@ -551,6 +560,11 @@ body {
 .vmware,
 .Machine-learning {
     padding-bottom: 15px;
+}
+
+.speed-paragraph {
+    width: 75%;
+    overflow: hidden;
 }
 
 .apps-gear a {
@@ -630,6 +644,8 @@ del {
 
 .fund-index {
     float: left;
+    position: relative;
+    left: 25px;
 }
 
 
