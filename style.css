@@ -837,18 +837,18 @@ del {
     }
 
     .affordable_agri {
-      right: 72px;
-      width: 460px;
+    right: 72px;
+    width: 460px;
     }
 
     .affordable1,
     .affordable2 {
-      width: 220px;
-      right: 100px;
+    width: 220px;
+    right: 100px;
     }
 
     .time-date {
-      display: none;
+    display: none;
     }
 }
 
@@ -1027,6 +1027,7 @@ del {
     .latest-container {
         position: relative;
         right: 15px;
+        top: 45px;
     }
 
     .see-link {
@@ -1063,13 +1064,10 @@ del {
     }
 
     .main-cover {
-        width: 100%;
-    }
-
-    .main-cover{
         display: grid;
         grid-template-columns: 1fr;
-
+        width: 100%;
+        margin: 0 10px 0 10px;
     }
 
     .affor1 {
@@ -1141,4 +1139,80 @@ del {
         border-left: 1px silver solid;
         border-right: 1px silver solid;
     }
+
+
+    .fund-main {
+        position: relative;
+        left: 30px;
+    }
+
+    .derma {
+        position: relative;
+        left: 20px;
+    }
+
+    .fund-header {
+        position: relative;
+        left: 30px;
+    }
+
+    .list-fun li {
+        margin: 0 20px 0 20px;
+    }
+
+    .left-right-border {
+        position: relative;
+        left: 1px;
+    }
+
+    .media-fund {
+        width: 305px;
+    }
+
+    .reprot {
+        font-size: 12px;
+    }
+
+    .isra {
+        font-size: 12px;
+    }
+
+    .my-rep {
+        position: relative;
+        top: 15px;
+    }
+
+    .reprot1 {
+        position: relative;
+        top: 15px;
+    }
+
+    .camels, 
+    .noCamels {
+        position: relative;
+        bottom: 30px;
+    }
+
+    .para-camels  {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .cam_p {
+        font-size: 12px;
+    }
+
+    body {
+        position: relative;
+        right: 10px;
+    }
+
+    .latest-main-content {
+        padding-top: 130px;
+    }
+    .main-cover {
+        position: relative;
+        left: 13px;
+    }
+    
 }
