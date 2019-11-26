@@ -1187,7 +1187,7 @@ del {
         top: 15px;
     }
 
-    .camels, 
+    .camels,
     .noCamels {
         position: relative;
         bottom: 30px;
@@ -1214,5 +1214,14 @@ del {
         position: relative;
         left: 13px;
     }
-    
+
+    .special-icon1 {
+        position: absolute !important;
+        top: 60px;
+        left: 125px !important;
+    }
+
+    .smedia {
+        margin: 0 30px;
+    }
 }
