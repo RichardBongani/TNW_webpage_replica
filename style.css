@@ -509,6 +509,7 @@ body {
 .launch-img,
 .distract-img {
     position: relative;
+    bottom: 5px;
 }
 
 
@@ -967,6 +968,7 @@ del {
     .my_distact {
         position: relative;
         left: 27px;
+        bottom: 5px;
     }
 
     .cdn-img{
@@ -1224,4 +1226,91 @@ del {
     .smedia {
         margin: 0 30px;
     }
+
+    .cdn-img, 
+    .my_mug, 
+    .my_prime, 
+    .my_podium, 
+    .own_games, 
+    .tech-img, 
+    .my-gear, 
+    .my_netflix {
+        display: none;
+    }
+
+    .my {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/09/shutterstock_289123022_Wikipedia-1200x600.jpg");
+        background-size: cover;
+        width: 305px;
+        height: 250px;
+    }
+
+    .mug {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
+        background-size: cover;
+        width: 305px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+    }
+
+    .img_pri {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-39-368x276.jpg");
+        background-size: cover;
+        width: 305px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+    }
+
+    .img_podiu {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design20-368x276.png");
+        background-size: cover;
+        width: 305px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+    }
+
+    .my_most {
+        position: relative;
+        top: 110px;
+    }
+
+    .my_game {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-368x276.jpg");
+        background-size: cover;
+        width: 305px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+    }
+
+    .tek {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/blackface-368x276.jpg");
+        background-size: cover;
+        width: 305px;
+        height: 250px;
+        position: relative;
+        left: 30px;
+    }
+
+    .img_gear {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg");
+        background-size: cover;
+        width: 305px;
+        height: 240px;
+        position: relative;
+        left: 30px;
+    }
+    
+    .net {
+        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
+        background-size: cover;
+        width: 305px;
+        height: 240px;
+        position: relative;
+        left: 30px;
+    }
+
 }
