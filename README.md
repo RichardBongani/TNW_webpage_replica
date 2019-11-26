@@ -16,7 +16,7 @@ We used HTML and CSS to build this project
 - https://thenextweb.com/
 
 # Authors to the cloned page:
-  -Richard  Bongani Phala<br>
-  -Miguel Pyven
+  -Richard  Bongani Phala
+  -Miguel Pyven<br>
   *Please take a look at our cloned site:
   <a href="https://rawcdn.githack.com/RichardBongani/TNW_webpage_replica/b59aa26d6674c6b12d6ae9d4b916989fa6f438a7/index.html">Click here</a>
