@@ -19,4 +19,4 @@ We used HTML and CSS to build this project
   -Richard  Bongani Phala<br>
   -Miguel Pyven<br>
   *Please take a look at our cloned site:
-  <a href="https://rawcdn.githack.com/RichardBongani/TNW_webpage_replica/e5a179297f4fbb23e353d7fde7626394d87e487a/index.html">Click here</a>
+  <a href="https://rawcdn.githack.com/RichardBongani/TNW_webpage_replica/569597817c305a7fecb76d11a941221f89adc144/index.html">Click here</a>
