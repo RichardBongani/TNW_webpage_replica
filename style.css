@@ -356,11 +356,7 @@ body {
 
 .smedia {
     display: flex;
-}
-
-.social {
-    position:relative;
-    left: 460px;
+    justify-content: center;
 }
 
 .links {
@@ -722,10 +718,6 @@ del {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    .social {
-        left: 260px;
-    }
-
     .main-cover {
         position: relative;
         top: 25px;
@@ -828,11 +820,6 @@ del {
         margin: -160px 0 25px;
     }
 
-    .smedia {
-        position: relative;
-        right: 95px;
-    }
-
     .cover-header a {
         font-size: 22px;
     }
@@ -887,11 +874,6 @@ del {
     .main_container {
         position: relative;
         bottom: 50px;
-    }
-
-    .smedia {
-        position: relative;
-        right: 230px;
     }
 
     .smedia li {
@@ -1016,8 +998,6 @@ del {
     }
 
     .smedia li {
-        position: relative;
-        left: 15px;
         margin: 2px;
     }
 
@@ -1217,23 +1197,13 @@ del {
         left: 13px;
     }
 
-    .special-icon1 {
-        position: absolute !important;
-        top: 60px;
-        left: 125px !important;
-    }
-
-    .smedia {
-        margin: 0 30px;
-    }
-
-    .cdn-img, 
-    .my_mug, 
-    .my_prime, 
-    .my_podium, 
-    .own_games, 
-    .tech-img, 
-    .my-gear, 
+    .cdn-img,
+    .my_mug,
+    .my_prime,
+    .my_podium,
+    .own_games,
+    .tech-img,
+    .my-gear,
     .my_netflix {
         display: none;
     }
@@ -1303,7 +1273,7 @@ del {
         position: relative;
         left: 30px;
     }
-    
+
     .net {
         background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
         background-size: cover;
@@ -1313,4 +1283,15 @@ del {
         left: 30px;
     }
 
+    .social {
+        position: relative;
+        width: 68%;
+    }
+
+    .special-icon1 {
+        position: absolute !important;
+        top: 60px;
+        float: left;
+        float: right;
+    }
 }
