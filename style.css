@@ -13,9 +13,9 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font: inherit;
   font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  vertical-align: baseline;
 }
 
 .tnw-gif {
@@ -687,7 +687,7 @@ del {
     display: block;
     height: 30px;
     width: 105px;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
     float: left;
    padding: 33px 10px;
   }
@@ -899,7 +899,7 @@ del {
 
   .latest-news1 a {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 700px;
   }
 
