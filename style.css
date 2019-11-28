@@ -1,0 +1,1250 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+p,
+h3,
+h4,
+h2,
+h1,
+a,
+h5 {
+  font-family: Shentox, sans-serif;
+}
+
+.tnw-gif {
+  display: none;
+}
+
+.nav-container {
+  background-color: black;
+  height: 30px;
+}
+
+.main_container {
+  padding-left: 55px;
+}
+
+.news a {
+  color: white;
+}
+
+.up {
+  background-color: #f42;
+  width: 285px;
+  height: 45px;
+  color: white;
+}
+
+.price {
+  background-color: #ffe6b3;
+  width: 285px;
+  height: 45px;
+  padding-bottom: 10px;
+}
+
+.services1,
+.services2,
+.services3,
+.services4 {
+  background-color: #fff7e6;
+  height: 210px;
+  width: 99%;
+  position: relative;
+  bottom: 15px;
+}
+
+.seed {
+  font-size: 12px;
+}
+
+.fund-content,
+.ebury,
+.MyDermacy,
+.farm {
+  margin-left: 25px;
+}
+
+.fund-header a {
+  text-decoration: none;
+}
+
+.list-fun {
+  list-style-type: none;
+}
+
+.nav_link,
+.nav_link1 {
+  color: silver;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 12px;
+}
+
+.img-fund {
+  position: relative;
+  bottom: 35px;
+  left: 15px;
+  z-index: 1;
+}
+
+.services4 p {
+  margin: 15px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #505050;
+}
+
+.money {
+  font-weight: bold;
+}
+
+.my_list {
+  display: inline;
+  padding: 15px;
+  position: relative;
+  top: 5px;
+}
+
+.my_list1 {
+  display: inline;
+  padding: 15px;
+  position: relative;
+  bottom: 13px;
+  left: 70%;
+}
+
+.low-list {
+  display: inline;
+  margin-left: 5px;
+}
+
+.fund-main h3 {
+  text-align: center;
+}
+
+.search {
+  float: right;
+  border-left: solid 1px silver;
+  padding: 0 10px;
+  height: 55px;
+  margin-top: -15px;
+}
+
+#search-icon {
+  transform: scale(-1, 1);
+  padding: 20px 5px 0 0;
+}
+
+.low-link {
+  color: silver;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.nav-low {
+  border-bottom: solid 1px silver;
+  padding-bottom: 10px;
+}
+
+.nav-low-list {
+  padding: 10px;
+}
+
+.cover-title a {
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.space-apps-gear a {
+  text-decoration: none;
+}
+
+.funding a {
+  text-decoration: none;
+}
+
+.apps-gear a {
+  color: grey;
+}
+
+.font-size-14 p,
+.font-size-14 a {
+  font-size: 14px;
+}
+
+.low-list a:hover {
+  color: black;
+}
+
+.my_list a:hover,
+.my_list1 a:hover {
+  color: white;
+}
+
+.affordable_agri {
+  padding: 55px 0 0 10px;
+  background-image: -webkit-linear-gradient(95deg, rgb(4, 2, 1) 0%, rgba(4, 2, 1, 0.98) 2%, rgba(0, 0, 0, 0.95) 9%, rgba(0, 0, 0, 0.93) 13%, rgba(0, 0, 0, 0.84) 29%, rgba(24, 19, 16, 0.76) 43%, rgba(105, 39, 9, 0.72) 50%, rgba(193, 60, 0, 0.76) 57%, rgba(233, 77, 7, 0.82) 68%, rgba(201, 73, 16, 0.91) 84%, rgba(225, 69, 0, 0.96) 93%, rgba(236, 72, 0, 0.98) 97%, rgb(236, 72, 0) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/synd7-796x417.jpg");
+  height: 420px;
+  width: 108%;
+  position: relative;
+  right: 25px;
+  background-repeat: no-repeat;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  width: 45%;
+}
+
+.affordable {
+  width: 65%;
+  height: 75%;
+  position: relative;
+  left: 245px;
+  top: 55px;
+}
+
+.fund-main {
+  display: flex;
+  padding-top: 20px;
+  clear: both;
+}
+
+.story-investmentCard-company-image {
+  width: 60px;
+  height: 60px;
+}
+
+.latest-img2,
+.latest-img {
+  height: 150px;
+  width: 280px;
+}
+
+.latest-news {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.latest-news1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.news_main {
+  display: flex;
+  padding-top: 50px;
+}
+
+.reprot {
+  color: black;
+  font-weight: bold;
+}
+
+.reprot1 {
+  color: lightslategrey;
+  font-size: 15px;
+}
+
+.latest-link {
+  color: red;
+}
+
+.rep-link,
+.news-link,
+.latest-link,
+.foo-link {
+  text-decoration: none;
+}
+
+.latest-link:hover {
+  color: black;
+}
+
+.latest-main-content {
+  padding-top: 230px;
+}
+
+.testing {
+  position: relative;
+  bottom: 65px;
+}
+
+.price p {
+  padding-left: 85px;
+}
+
+.bottom,
+.middle,
+.apps_gear_tech-main {
+  padding-top: 55px;
+}
+
+.bottom {
+  position: relative;
+  bottom: 35px;
+}
+
+.fund-header li {
+  float: right;
+  margin-left: 10px;
+  font-size: 19px;
+  padding-top: 8px;
+  padding-right: 15px;
+}
+
+.apps_gear_tech-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 70px;
+  margin-top: 50px;
+  position: relative;
+  right: 30px;
+  bottom: 150px;
+}
+
+.funding {
+  margin-top: 50px;
+  position: relative;
+  right: 30px;
+}
+
+.fund-header {
+  margin-bottom: 10px;
+}
+
+.machine-img,
+.cert-img {
+  width: 270px;
+  height: 150px;
+}
+
+.speed,
+.cloud,
+.vmware,
+.Machine-learning,
+.certificate,
+.microsoft,
+.vpn {
+  flex: 1;
+}
+
+.see-all {
+  position: relative;
+  left: 1095px;
+  bottom: 20px;
+}
+
+.see-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.latest-head {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.footer2 {
+  background-color: black;
+  height: 60px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.footer1 {
+  background-color: #181818;
+  height: 120px;
+}
+
+.footer2-link {
+  color: white;
+}
+
+.next-web {
+  color: white;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.foo-link {
+  display: inline;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: white;
+}
+
+.smedia {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+.icon {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 15px;
+  list-style-type: none;
+}
+
+.red {
+  color: red;
+}
+
+.reprot:hover {
+  color: red;
+}
+
+.icon:hover {
+  background-color: #181818;
+}
+
+.smedia li {
+  background-color: #404040;
+  border-radius: 1px solid black;
+  border-radius: 100%;
+  border: 2px solid #787878;
+}
+
+.entertainmet {
+  position: relative;
+  left: 13px;
+  top: 10px;
+  height: 75px;
+  width: 75px;
+}
+
+.affordable1 {
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/theft-malaysia-bitcoin-tunnel-dig-rill-miners-796x448.jpg");
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  bottom: 420px;
+}
+
+.affordable2 {
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design1-796x417.png");
+  background-size: cover;
+  height: 208px;
+  position: relative;
+  bottom: 210px;
+}
+
+.main-cover {
+  display: flex;
+  padding-top: 60px;
+  justify-content: space-between;
+  margin-bottom: -150px;
+}
+
+.main-content1 {
+  flex: 2;
+  background-size: cover;
+}
+
+.main-content {
+  flex: 1.4;
+  position: relative;
+  left: 40px;
+}
+
+.cover-header {
+  position: absolute;
+  top: 420px;
+  left: 10px;
+  z-index: 0;
+}
+
+.cover-header section {
+  list-style: none;
+}
+
+.cover-header p {
+  display: inline;
+}
+
+.noCamels,
+.camels {
+  padding-top: 85px;
+  padding-left: 15px;
+}
+
+.white {
+  color: white;
+  position: relative;
+  bottom: 35px;
+}
+
+.bck-clr {
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.space-apps-gear {
+  width: 420px;
+  padding: 0 26px;
+}
+
+.Netflix-show,
+.mymobile,
+.my-tech,
+.creative-content,
+.podium-content,
+.insight-img,
+.launch-img,
+.distract-img {
+  position: relative;
+  bottom: 5px;
+}
+
+.most-popular {
+  position: absolute;
+  bottom: 100px;
+  left: 15px;
+  z-index: 2;
+  color: white;
+}
+
+.description {
+  position: absolute;
+  bottom: 60px;
+  left: 15px;
+  z-index: 2;
+  color: white;
+}
+
+.published {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  z-index: 2;
+  color: white;
+}
+
+.latest-gear {
+  height: 80px;
+  background-color: rgba(260, 68, 34, 0.06);
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Apple-AR-glasses-headset.jpg");
+  background-repeat: no-repeat;
+  background-size: 28% 80px;
+  background-position: right;
+}
+
+.speed,
+.cloud,
+.vmware,
+.Machine-learning {
+  padding-bottom: 15px;
+}
+
+.speed-paragraph {
+  width: 75%;
+  overflow: hidden;
+}
+
+.apps-gear li {
+  padding: 13px 0 5px;
+  border-bottom: 1px silver solid;
+}
+
+.apps-gear a:hover {
+  color: black;
+}
+
+.services3 p,
+.services2 p,
+.services1 p {
+  font-size: 14px;
+  color: #505050;
+  margin: 15px;
+  padding-top: 10px;
+}
+
+.services4 p:hover,
+.services3 p:hover,
+.services2 p:hover,
+.services1 p:hover {
+  color: black;
+}
+
+.left-right-border {
+  border-left: 1px red solid;
+  border-right: 1px red solid;
+  padding: 0 20px;
+}
+
+.list-fun a:hover {
+  color: black;
+}
+
+del {
+  font-size: 14px;
+  color: silver;
+}
+
+.smedia i {
+  color: white;
+}
+
+.bck-clr header {
+  top: 330px;
+}
+
+.tnw-logo {
+  position: absolute;
+  bottom: 300px;
+}
+
+.fund-index {
+  float: left;
+  position: relative;
+  left: 25px;
+}
+
+.time-date {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+
+.response-logo {
+  display: none;
+}
+
+.navigation2 {
+  position: relative;
+  right: 50px;
+}
+
+.sm-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .latest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .response-logo {
+    display: block;
+    height: 30px;
+    width: 105px;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    float: left;
+    padding: 33px 10px;
+  }
+
+  .farm {
+    display: none;
+  }
+
+  .fund-main {
+    margin-left: -40px;
+    padding-left: 25px;
+  }
+
+  .fund-header {
+    margin-left: -10px;
+  }
+
+  .list-fun {
+    clear: both;
+  }
+
+  .fund-header li {
+    float: left;
+  }
+
+  .apps_gear_tech-main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .latest-news {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .main-cover {
+    position: relative;
+    top: 25px;
+  }
+
+  .low-link,
+  .nav_link,
+  .nav_link1 {
+    font-size: 12px;
+  }
+
+  .nav_link1 {
+    position: relative;
+    right: 95px;
+  }
+
+  .my_list1,
+  .my_list {
+    margin: -8px;
+  }
+
+  .navigation2 {
+    position: relative;
+    right: 35px;
+  }
+
+  .nav-low {
+    height: 31px;
+  }
+
+  .nav-low-list {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .search {
+    height: 35px;
+    margin-top: -5px;
+  }
+
+  #search-icon {
+    padding-top: 10px;
+  }
+
+  main {
+    margin-left: -30px;
+  }
+
+  .latest-img2 {
+    width: 220px;
+    height: 145px;
+  }
+
+  .space-apps-gear {
+    width: 365px;
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  .latest-img {
+    width: 220px;
+    height: 145px;
+  }
+
+  .machine-img {
+    width: 220px;
+    height: 145px;
+  }
+
+  .cert-img {
+    width: 220px;
+    height: 145px;
+  }
+
+  .fund-content,
+  .price,
+  .up,
+  .media-fund {
+    width: 230px;
+  }
+
+  .list-fun li {
+    margin-left: 20px;
+    clear: both;
+    float: left;
+  }
+
+  .left-right-border {
+    padding: 0;
+    border: 0;
+  }
+
+  .latest-container {
+    margin: -160px 0 25px;
+  }
+
+  .cover-header a {
+    font-size: 22px;
+  }
+
+  .affordable_agri {
+    right: 72px;
+    width: 460px;
+  }
+
+  .affordable1,
+  .affordable2 {
+    width: 220px;
+    right: 100px;
+  }
+
+  .time-date {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navigation2 {
+    display: none;
+  }
+
+  .nav-low-list {
+    position: relative;
+    top: 10px;
+  }
+
+  .nav-low {
+    height: 48px;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .latest-grid,
+  .latest-news,
+  .apps_gear_tech-main,
+  .fund-main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .apps_gear_tech-main {
+    position: relative;
+    bottom: 85px;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .main_container {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .smedia li {
+    border: none;
+    margin: 2px;
+  }
+
+  .latest-img2,
+  .latest-img,
+  .machine-img,
+  .cert-img {
+    width: 85px;
+    height: 75px;
+    padding: 7px;
+  }
+
+  .latest-news div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-right: 150px;
+    width: 790px;
+  }
+
+  .latest-news1 a {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+  }
+
+  .reprot {
+    margin-left: -250px;
+    font-size: 12px;
+  }
+
+  .reprot1 {
+    margin-top: -40px;
+    margin-left: 100px;
+    position: relative;
+    top: 15px;
+  }
+
+  .latest-news p {
+    position: relative;
+    right: 220px;
+    top: 15px;
+    font-size: 15px;
+  }
+
+  .footer2 p {
+    width: 50%;
+    position: relative;
+    top: 10px;
+    left: 60px;
+  }
+
+  .my_see {
+    position: relative;
+    right: 30px;
+  }
+
+  .foo-link {
+    font-size: 12px;
+    position: relative;
+    right: 8%;
+    top: 35px;
+    margin: 1px;
+  }
+
+  .apps-gear a {
+    font-size: 13px;
+    font-weight: 0;
+  }
+
+  .apps-gear ul {
+    margin: 0 30px 0 30px;
+  }
+
+  .my_distact {
+    position: relative;
+    left: 27px;
+    bottom: 5px;
+  }
+
+  .cdn-img {
+    width: 305px;
+  }
+
+  .most-popular {
+    font-size: 13px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .published {
+    font-size: 13px;
+  }
+
+  .my_prime,
+  .my_podium,
+  .my_mug,
+  .own_games,
+  .tech-img,
+  .my-gear,
+  .my_netflix {
+    width: 305px;
+    margin: 0 30px 0 30px;
+  }
+
+  .latest-gear {
+    margin: 0 30px 0 30px;
+  }
+
+  .distract-img {
+    margin: 0 30px 0 30px;
+  }
+
+  .footer1 {
+    height: 200px;
+    width: 150%;
+  }
+
+  .footer2 {
+    height: 130px;
+    width: 150%;
+  }
+
+  .latest-container {
+    position: relative;
+    right: 15px;
+    top: 45px;
+  }
+
+  .see-link {
+    position: relative;
+    right: 830px;
+    font-size: 15px;
+  }
+
+  .space-apps-gear {
+    padding-top: 25px;
+  }
+
+  .price,
+  .up {
+    width: 99%;
+  }
+
+  .list-fun {
+    width: 60%;
+  }
+
+  .list-fun a {
+    font-size: 15px;
+  }
+
+  .fund-index {
+    font-size: 25px;
+  }
+
+  .left-right-border {
+    border-left: none;
+    border-right: none;
+    position: relative;
+    right: 20px;
+    left: 1px;
+  }
+
+  .main-cover {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 10px 0 10px;
+    position: relative;
+    left: 13px;
+  }
+
+  .affor1 {
+    width: 107.5%;
+    height: 150px;
+  }
+
+  .affordable1,
+  .affordable2 {
+    position: relative;
+    right: 85px;
+    height: 150px;
+    width: 110%;
+    margin: 5px;
+  }
+
+  .affordable2 {
+    position: relative;
+    bottom: 265px;
+  }
+
+  .affordable_agri {
+    position: relative;
+    right: 30px;
+  }
+
+  .affor1 h2 h5 {
+    font-size: 10px;
+  }
+
+  .tnw-logo {
+    display: none;
+  }
+
+  .para-camels {
+    margin-top: -250px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .response-logo {
+    padding-top: 10px;
+  }
+
+  .nav-sub-container {
+    display: none;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .sm-nav {
+    display: block;
+    background-color: white;
+    height: 43px;
+  }
+
+  .sm-nav i {
+    color: black;
+    float: right;
+    padding: 15px 15px;
+    height: 43px;
+  }
+
+  #menu {
+    color: red;
+  }
+
+  #sm-search {
+    border-left: 1px silver solid;
+    border-right: 1px silver solid;
+  }
+
+  .fund-main {
+    position: relative;
+    left: 30px;
+  }
+
+  .derma {
+    position: relative;
+    left: 20px;
+  }
+
+  .fund-header {
+    position: relative;
+    left: 30px;
+  }
+
+  .list-fun li {
+    margin: 0 20px 0 20px;
+  }
+
+  .media-fund {
+    width: 305px;
+  }
+
+  .isra {
+    font-size: 12px;
+  }
+
+  .my-rep {
+    position: relative;
+    top: 15px;
+  }
+
+  .camels,
+  .noCamels {
+    position: relative;
+    bottom: 30px;
+  }
+
+  .cam_p {
+    font-size: 12px;
+  }
+
+  body {
+    position: relative;
+    right: 10px;
+  }
+
+  .latest-main-content {
+    padding-top: 130px;
+  }
+
+  .cdn-img,
+  .my_mug,
+  .my_prime,
+  .my_podium,
+  .own_games,
+  .tech-img,
+  .my-gear,
+  .my_netflix {
+    display: none;
+  }
+
+  .my {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/09/shutterstock_289123022_Wikipedia-1200x600.jpg");
+    background-size: cover;
+    width: 305px;
+    height: 250px;
+  }
+
+  .mug {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
+    background-size: cover;
+    width: 305px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+  }
+
+  .img_pri {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-39-368x276.jpg");
+    background-size: cover;
+    width: 305px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+  }
+
+  .img_podiu {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design20-368x276.png");
+    background-size: cover;
+    width: 305px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+  }
+
+  .my_most {
+    position: relative;
+    top: 110px;
+  }
+
+  .my_game {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-368x276.jpg");
+    background-size: cover;
+    width: 305px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+  }
+
+  .tek {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/blackface-368x276.jpg");
+    background-size: cover;
+    width: 305px;
+    height: 250px;
+    position: relative;
+    left: 30px;
+  }
+
+  .img_gear {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg");
+    background-size: cover;
+    width: 305px;
+    height: 240px;
+    position: relative;
+    left: 30px;
+  }
+
+  .net {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
+    background-size: cover;
+    width: 305px;
+    height: 240px;
+    position: relative;
+    left: 30px;
+  }
+
+  .social {
+    position: relative;
+    width: 68%;
+  }
+
+  .special-icon1 {
+    position: absolute !important;
+    top: 60px;
+    float: left;
+    float: right;
+  }
+}
