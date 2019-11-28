@@ -104,10 +104,17 @@ h5 {
   z-index: 1;
 }
 
+.services4 p  {
+  margin: 15px;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #505050;
+
+}
+
 .services1 p,
 .services2 p,
-.services3 p,
-.services4 p {
+.services3 p{
   margin: 15px;
   padding-top: 10px;
 }
@@ -228,6 +235,8 @@ h5 {
 
 .fund-main {
   display: flex;
+  padding-top: 20px;
+  clear: both;
 }
 
 .story-investmentCard-company-image {
@@ -313,8 +322,17 @@ h5 {
   padding-right: 15px;
 }
 
-.funding,
+
 .apps_gear_tech-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 70px;
+  margin-top: 50px;
+  position: relative;
+  right: 30px;
+}
+
+.funding {
   margin-top: 50px;
   position: relative;
   right: 30px;
@@ -438,10 +456,6 @@ h5 {
   top: 10px;
   height: 75px;
   width: 75px;
-}
-
-.affordable_agri {
-
 }
 
 .affordable1 {
@@ -581,7 +595,6 @@ h5 {
   color: black;
 }
 
-.services4 p,
 .services3 p,
 .services2 p,
 .services1 p {
@@ -635,17 +648,6 @@ del {
   left: 25px;
 }
 
-.fund-main {
-  padding-top: 20px;
-  clear: both;
-}
-
-.apps_gear_tech-main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 70px;
-}
-
 .time-date {
   position: absolute;
   right: 40px;
@@ -686,6 +688,7 @@ del {
 
   .fund-main {
     margin-left: -40px;
+    padding-left: 25px;
   }
 
   .fund-header {
@@ -764,6 +767,7 @@ del {
   .space-apps-gear {
     width: 365px;
     padding: 0;
+    margin: 0 10px;
   }
 
   .latest-img {
@@ -781,19 +785,11 @@ del {
     height: 145px;
   }
 
-  .space-apps-gear {
-    margin: 0 10px;
-  }
-
   .fund-content,
   .price,
   .up,
   .media-fund {
     width: 230px;
-  }
-
-  .fund-main {
-    padding-left: 25px;
   }
 
   .list-fun li {
@@ -869,6 +865,7 @@ del {
 
   .smedia li {
     border: none;
+    margin: 2px;
   }
 
   .latest-img2,
@@ -895,11 +892,14 @@ del {
 
   .reprot {
     margin-left: -250px;
+    font-size: 12px;
   }
 
   .reprot1 {
     margin-top: -40px;
     margin-left: 100px;
+    position: relative;
+    top: 15px;
   }
 
   .latest-news p {
@@ -984,10 +984,6 @@ del {
     width: 150%;
   }
 
-  .smedia li {
-    margin: 2px;
-  }
-
   .footer2 {
     height: 130px;
     width: 150%;
@@ -1031,6 +1027,8 @@ del {
     border-right: none;
     position: relative;
     right: 20px;
+    position: relative;
+    left: 1px;
   }
 
   .main-cover {
@@ -1038,6 +1036,8 @@ del {
     grid-template-columns: 1fr;
     width: 100%;
     margin: 0 10px 0 10px;
+    position: relative;
+    left: 13px;
   }
 
   .affor1 {
@@ -1131,17 +1131,8 @@ del {
     margin: 0 20px 0 20px;
   }
 
-  .left-right-border {
-    position: relative;
-    left: 1px;
-  }
-
   .media-fund {
     width: 305px;
-  }
-
-  .reprot {
-    font-size: 12px;
   }
 
   .isra {
@@ -1149,11 +1140,6 @@ del {
   }
 
   .my-rep {
-    position: relative;
-    top: 15px;
-  }
-
-  .reprot1 {
     position: relative;
     top: 15px;
   }
@@ -1175,11 +1161,6 @@ del {
 
   .latest-main-content {
     padding-top: 130px;
-  }
-
-  .main-cover {
-    position: relative;
-    left: 13px;
   }
 
   .cdn-img,
