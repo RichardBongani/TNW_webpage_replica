@@ -18,6 +18,16 @@ body {
   vertical-align: baseline;
 }
 
+p,
+h3,
+h4,
+h2,
+h1,
+a,
+h5 {
+  font-family: Shentox, sans-serif;
+}
+
 .tnw-gif {
   display: none;
 }
@@ -160,6 +170,19 @@ body {
   padding: 10px;
 }
 
+.cover-title a {
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.space-apps-gear a {
+  text-decoration: none;
+}
+
+.apps-gear a {
+  color: grey;
+}
+
 .low-list a:hover {
   color: black;
 }
@@ -174,7 +197,7 @@ body {
   padding: 55px 0 0 10px;
 }
 
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -240,15 +263,15 @@ body {
   color: red;
 }
 
-.latest-link:hover {
-  color: black;
-}
-
 .rep-link,
 .news-link,
 .latest-link,
 .foo-link {
   text-decoration: none;
+}
+
+.latest-link:hover {
+  color: black;
 }
 
 .latest-main-content {
@@ -418,7 +441,7 @@ body {
 }
 
 .affordable_agri {
-  background-image: -webkit-linear-gradient(95deg, rgb(4, 2, 1) 0%, rgba(4, 2, 1, 0.98) 2%, rgba(0, 0, 0, 0.95) 9%, rgba(0, 0, 0, 0.93) 13%, rgba(0, 0, 0, 0.84) 29%, rgba(24, 19, 16, 0.76) 43%, rgba(105, 39, 9, 0.72) 50%, rgba(193, 60, 0, 0.76) 57%, rgba(233, 77, 7, 0.82) 68%, rgba(201, 73, 16, 0.91) 84%, rgba(225, 69, 0, 0.96) 93%, rgba(236, 72, 0, 0.98) 97%, rgb(236, 72, 0) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/synd7-796x417.jpg");
+  background-image: -webkit-linear-gradient(95deg, rgb(4, 2, 1) 0%, rgba(4, 2, 1, 0.98) 2%, rgba(0, 0, 0, 0.95) 9%, rgba(0, 0, 0, 0.93) 13%, rgba(0, 0, 0, 0.84) 29%, rgba(24, 19, 16, 0.76) 43%, rgba(105, 39, 9, 0.72) 50%, rgba(193, 60, 0, 0.76) 57%, rgba(233, 77, 7, 0.82) 68%, rgba(201, 73, 16, 0.91) 84%, rgba(225, 69, 0, 0.96) 93%, rgba(236, 72, 0, 0.98) 97%, rgb(236, 72, 0) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/synd7-796x417.jpg");
   height: 420px;
   width: 108%;
   position: relative;
@@ -427,7 +450,7 @@ body {
 }
 
 .affordable1 {
-  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/theft-malaysia-bitcoin-tunnel-dig-rill-miners-796x448.jpg");
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/theft-malaysia-bitcoin-tunnel-dig-rill-miners-796x448.jpg");
   height: 200px;
   background-size: cover;
   position: relative;
@@ -445,7 +468,6 @@ body {
 .main-cover {
   display: flex;
   padding-top: 60px;
-  justify-content: space-between;
   justify-content: space-between;
   margin-bottom: -150px;
 }
@@ -474,11 +496,6 @@ body {
 
 .cover-header p {
   display: inline;
-}
-
-.cover-title a {
-  text-decoration: none;
-  font-size: 28px;
 }
 
 .noCamels,
@@ -548,10 +565,6 @@ body {
   background-position: right;
 }
 
-.space-apps-gear a {
-  text-decoration: none;
-}
-
 .speed,
 .cloud,
 .vmware,
@@ -564,10 +577,6 @@ body {
   overflow: hidden;
 }
 
-.apps-gear a {
-  color: grey;
-}
-
 .apps-gear li {
   padding: 13px 0 5px;
   border-bottom: 1px silver solid;
@@ -575,16 +584,6 @@ body {
 
 .apps-gear a:hover {
   color: black;
-}
-
-p,
-h3,
-h4,
-h2,
-h1,
-a,
-h5 {
-  font-family: Shentox, sans-serif;
 }
 
 .services4 p,
@@ -1204,14 +1203,14 @@ del {
   }
 
   .my {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/09/shutterstock_289123022_Wikipedia-1200x600.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/09/shutterstock_289123022_Wikipedia-1200x600.jpg");
     background-size: cover;
     width: 305px;
     height: 250px;
   }
 
   .mug {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
     background-size: cover;
     width: 305px;
     height: 250px;
@@ -1220,7 +1219,7 @@ del {
   }
 
   .img_pri {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-39-368x276.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-39-368x276.jpg");
     background-size: cover;
     width: 305px;
     height: 250px;
@@ -1229,7 +1228,7 @@ del {
   }
 
   .img_podiu {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design20-368x276.png");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design20-368x276.png");
     background-size: cover;
     width: 305px;
     height: 250px;
@@ -1243,7 +1242,7 @@ del {
   }
 
   .my_game {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-368x276.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-368x276.jpg");
     background-size: cover;
     width: 305px;
     height: 250px;
@@ -1252,7 +1251,7 @@ del {
   }
 
   .tek {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/blackface-368x276.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/blackface-368x276.jpg");
     background-size: cover;
     width: 305px;
     height: 250px;
@@ -1261,7 +1260,7 @@ del {
   }
 
   .img_gear {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg");
     background-size: cover;
     width: 305px;
     height: 240px;
@@ -1270,7 +1269,7 @@ del {
   }
 
   .net {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
     background-size: cover;
     width: 305px;
     height: 240px;
