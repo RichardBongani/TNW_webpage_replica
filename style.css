@@ -179,6 +179,10 @@ h5 {
   text-decoration: none;
 }
 
+.funding a {
+  text-decoration: none;
+}
+
 .apps-gear a {
   color: grey;
 }
@@ -243,9 +247,6 @@ h5 {
 
 .news_main {
   display: flex;
-}
-
-.news_main {
   padding-top: 50px;
 }
 
@@ -333,7 +334,6 @@ h5 {
 .vmware,
 .Machine-learning,
 .certificate,
-.microsoft,
 .microsoft,
 .vpn {
   flex: 1;
@@ -594,8 +594,9 @@ h5 {
   color: #505050;
 }
 
-.funding a {
-  text-decoration: none;
+.font-size-14 p,
+.font-size-14 a {
+  font-size: 14px;
 }
 
 .services4 p:hover,
@@ -613,11 +614,6 @@ h5 {
 
 .list-fun a:hover {
   color: black;
-}
-
-.font-size-14 p,
-.font-size-14 a {
-  font-size: 14px;
 }
 
 del {
