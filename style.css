@@ -71,7 +71,7 @@ body {
   margin-left: 25px;
 }
 
-.fund-header  a {
+.fund-header a {
   text-decoration: none;
 }
 
@@ -140,7 +140,7 @@ body {
 
 #search-icon {
   transform: scale(-1, 1);
-  padding: 20px 5px 0px 0px;
+  padding: 20px 5px 0 0;
 }
 
 .low-link {
@@ -283,7 +283,8 @@ body {
   padding-right: 15px;
 }
 
-.funding, .apps_gear_tech-main {
+.funding,
+.apps_gear_tech-main {
   margin-top: 50px;
   position: relative;
   right: 30px;
@@ -467,7 +468,6 @@ body {
   z-index: 0;
 }
 
-
 .cover-header section {
   list-style: none;
 }
@@ -481,7 +481,8 @@ body {
   font-size: 28px;
 }
 
-.noCamels, .camels {
+.noCamels,
+.camels {
   padding-top: 85px;
   padding-left: 15px;
 }
@@ -513,8 +514,6 @@ body {
   position: relative;
   bottom: 5px;
 }
-
-
 
 .most-popular {
   position: absolute;
@@ -646,7 +645,6 @@ del {
   left: 25px;
 }
 
-
 .fund-main {
   padding-top: 20px;
   clear: both;
@@ -689,7 +687,7 @@ del {
     width: 105px;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     float: left;
-   padding: 33px 10px;
+    padding: 33px 10px;
   }
 
   .farm {
@@ -736,7 +734,8 @@ del {
     right: 95px;
   }
 
-  .my_list1, .my_list {
+  .my_list1,
+  .my_list {
     margin: -8px;
   }
 
@@ -774,7 +773,7 @@ del {
 
   .space-apps-gear {
     width: 365px;
-    padding: 0px;
+    padding: 0;
   }
 
   .latest-img {
@@ -873,11 +872,12 @@ del {
     font-size: 17px;
   }
 
-    .main_container {
+  .main_container {
     position: relative;
     bottom: 50px;
   }
-    .smedia li {
+
+  .smedia li {
     border: none;
   }
 
@@ -1019,7 +1019,8 @@ del {
     padding-top: 25px;
   }
 
-  .price, .up {
+  .price,
+  .up {
     width: 99%;
   }
 
@@ -1121,7 +1122,6 @@ del {
     border-right: 1px silver solid;
   }
 
-
   .fund-main {
     position: relative;
     left: 30px;
@@ -1186,6 +1186,7 @@ del {
   .latest-main-content {
     padding-top: 130px;
   }
+
   .main-cover {
     position: relative;
     left: 13px;
