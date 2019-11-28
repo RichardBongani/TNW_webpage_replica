@@ -31,7 +31,7 @@ body {
     padding-left: 55px;
 }
 
-.news a{
+.news a {
     color: white;
 }
 
@@ -77,7 +77,6 @@ body {
 
 .list-fun {
     list-style-type: none;
-
 }
 
 .nav_link,
@@ -142,7 +141,6 @@ body {
 #search-icon {
     transform: scale(-1, 1);
     padding: 20px 5px 0px 0px;
-
 }
 
 .low-link {
@@ -291,7 +289,7 @@ body {
     right: 30px;
 }
 
-.apps_gear_tech-main  {
+.apps_gear_tech-main {
     position: relative;
     bottom: 150px;
 }
@@ -666,7 +664,7 @@ del {
     top: 20px;
 }
 
-.response-logo  {
+.response-logo {
     display: none;
 }
 
