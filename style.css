@@ -678,618 +678,617 @@ del {
 }
 
 @media only screen and (max-width: 992px) {
-    .latest-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .latest-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }
 
-    .response-logo  {
-        display: block;
-        height: 30px;
-        width: 105px;
-        background: linear-gradient(to bottom right,#c09,#f42 85%);
-        float: left;
-        padding: 33px 10px;
-    }
+.response-logo {
+    display: block;
+    height: 30px;
+    width: 105px;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    float: left;
+    padding: 33px 10px;
+  }
 
-    .farm {
-        display: none;
-    }
+  .farm {
+      display: none;
+  }
 
-    .fund-main {
-        margin-left: -40px;
-    }
+  .fund-main {
+      margin-left: -40px;
+  }
 
-    .fund-header {
-        margin-left: -10px;
-    }
+  .fund-header {
+      margin-left: -10px;
+  }
 
-    .list-fun {
-        clear: both;
-    }
+  .list-fun {
+      clear: both;
+  }
 
-    .fund-header li {
-        float: left;
-    }
+  .fund-header li {
+      float: left;
+  }
 
-    .apps_gear_tech-main {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .apps_gear_tech-main {
+      grid-template-columns: repeat(2, 1fr);
+  }
 
-    .latest-news {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .latest-news {
+      grid-template-columns: repeat(3, 1fr);
+  }
 
-    .main-cover {
-        position: relative;
-        top: 25px;
-    }
+  .main-cover {
+      position: relative;
+      top: 25px;
+  }
 
-    .low-link,
-    .nav_link,
-    .nav_link1 {
-        font-size: 12px;
-    }
+  .low-link,
+  .nav_link,
+  .nav_link1 {
+      font-size: 12px;
+  }
 
-    .nav_link1 {
-        position: relative;
-        right: 95px;
-    }
+  .nav_link1 {
+      position: relative;
+      right: 95px;
+  }
 
-    .my_list1, .my_list {
-        margin: -8px;
-    }
+  .my_list1, .my_list {
+      margin: -8px;
+  }
 
-    .navigation2 {
-        position: relative;
-        right: 35px;
-    }
+  .navigation2 {
+      position: relative;
+      right: 35px;
+  }
 
-    .nav-low {
-        height: 31px;
-    }
+  .nav-low {
+      height: 31px;
+  }
 
-    .nav-low-list {
-        position: relative;
-        bottom: 10px;
-    }
+  .nav-low-list {
+      position: relative;
+      bottom: 10px;
+  }
 
-    .search {
-        height: 35px;
-        margin-top: -5px;
-    }
+  .search {
+      height: 35px;
+      margin-top: -5px;
+  }
 
-    #search-icon {
-        padding-top: 10px;
-    }
+  #search-icon {
+      padding-top: 10px;
+  }
 
-    main {
-        margin-left: -30px;
-    }
+  main {
+      margin-left: -30px;
+  }
 
-    .latest-img2 {
-        width: 220px;
-        height: 145px;
-    }
+  .latest-img2 {
+      width: 220px;
+      height: 145px;
+  }
 
-    .space-apps-gear {
-        width: 365px;
-        padding: 0px;
-    }
+  .space-apps-gear {
+      width: 365px;
+      padding: 0px;
+  }
 
-    .latest-img {
-        width: 220px;
-        height: 145px;
-    }
+  .latest-img {
+      width: 220px;
+      height: 145px;
+  }
 
-    .machine-img {
-        width: 220px;
-        height: 145px;
-    }
+  .machine-img {
+      width: 220px;
+      height: 145px;
+  }
 
-    .cert-img {
-        width: 220px;
-        height: 145px;
-    }
+  .cert-img {
+      width: 220px;
+      height: 145px;
+  }
 
-    .space-apps-gear {
-        margin: 0 10px;
-    }
+  .space-apps-gear {
+      margin: 0 10px;
+  }
 
-    .fund-content,
-    .price,
-    .up,
-    .media-fund {
-        width: 230px;
-    }
+  .fund-content,
+  .price,
+  .up,
+  .media-fund {
+      width: 230px;
+  }
 
-    .fund-main {
-        padding-left: 25px;
-    }
+  .fund-main {
+      padding-left: 25px;
+  }
 
-    .list-fun li {
-        margin-left: 20px;
-        clear: both;
-        float: left;
-    }
+  .list-fun li {
+      margin-left: 20px;
+      clear: both;
+      float: left;
+  }
 
-    .left-right-border {
-        padding: 0;
-        border: 0;
-    }
+  .left-right-border {
+      padding: 0;
+      border: 0;
+  }
 
-    .latest-container {
-        margin: -160px 0 25px;
-    }
+  .latest-container {
+      margin: -160px 0 25px;
+  }
 
-    .cover-header a {
-        font-size: 22px;
-    }
+  .cover-header a {
+      font-size: 22px;
+  }
 
-    .affordable_agri {
-    right: 72px;
-    width: 460px;
-    }
+  .affordable_agri {
+  right: 72px;
+  width: 460px;
+  }
 
-    .affordable1,
-    .affordable2 {
-    width: 220px;
-    right: 100px;
-    }
+  .affordable1,
+  .affordable2 {
+  width: 220px;
+  right: 100px;
+  }
 
-    .time-date {
-    display: none;
-    }
+  .time-date {
+  display: none;
+  }
 }
 
 @media only screen and (max-width: 800px ){
-    .navigation2 {
-        display: none;
-    }
+  .navigation2 {
+      display: none;
+  }
 
-    .nav-low-list {
-        position: relative;
-        top: 10px;
-    }
+  .nav-low-list {
+      position: relative;
+      top: 10px;
+  }
 
-    .nav-low {
-        height: 48px;
-    }
+  .nav-low {
+      height: 48px;
+  }
 }
 
 @media only screen and (max-width: 665px){
-    .latest-grid,
-    .latest-news,
-    .apps_gear_tech-main,
-    .fund-main  {
-        display: grid;
-        grid-template-columns:1fr;
-    }
+  .latest-grid,
+  .latest-news,
+  .apps_gear_tech-main,
+  .fund-main {
+      display: grid;
+      grid-template-columns:1fr;
+  }
 
-    .apps_gear_tech-main {
-        position: relative;
-        bottom: 85px;
-        font-weight: bold;
-        font-size: 17px;
-    }
+  .apps_gear_tech-main {
+      position: relative;
+      bottom: 85px;
+      font-weight: bold;
+      font-size: 17px;
+  }
 
     .main_container {
-        position: relative;
-        bottom: 50px;
-    }
-
+      position: relative;
+      bottom: 50px;
+  }
     .smedia li {
-        border: none;
-    }
-
-    .latest-img2,
-    .latest-img,
-    .machine-img,
-    .cert-img {
-        width: 85px;
-        height:75px;
-        padding: 7px;
-    }
-
-    .latest-news div {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        padding-right: 150px;
-        width: 790px;
-    }
-
-    .latest-news1 a {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        width: 700px;
-    }
-
-    .reprot {
-        margin-left: -250px;
-    }
-
-    .reprot1 {
-        margin-top: -40px;
-        margin-left: 100px;
-    }
-
-    .latest-news p {
-        position: relative;
-        right: 220px;
-        top: 15px;
-        font-size: 15px;
-    }
-
-    .footer2 p {
-        width: 50%;
-        position: relative;
-        top: 10px;
-        left: 60px;
-    }
-
-    .my_see {
-        position: relative;
-        right: 30px;
-    }
-
-    .foo-link {
-        font-size: 12px;
-        position: relative;
-        right: 8%;
-        top: 35px;
-        margin: 1px;
-    }
-
-    .apps-gear a {
-        font-size: 13px;
-        font-weight: 0;
-    }
-
-    .apps-gear ul {
-        margin: 0 30px 0 30px;
-    }
-
-    .my_distact {
-        position: relative;
-        left: 27px;
-        bottom: 5px;
-    }
-
-    .cdn-img{
-        width: 305px;
-    }
-
-    .most-popular {
-        font-size: 13px;
-    }
-
-    .description {
-        font-size: 15px;
-    }
-
-    .published {
-        font-size: 13px;
-    }
-
-    .my_prime,
-    .my_podium,
-    .my_mug,
-    .own_games,
-    .tech-img,
-    .my-gear,
-    .my_netflix{
-        width: 305px;
-        margin: 0 30px 0 30px;
-    }
-
-    .latest-gear {
-        margin: 0 30px 0 30px;
-    }
-
-    .distract-img {
-        margin: 0 30px 0 30px;
-    }
-
-    .footer1 {
-        height: 200px;
-        width: 150%;
-    }
-
-    .smedia li {
-        margin: 2px;
-    }
-
-    .footer2 {
-        height: 130px;
-        width: 150%;
-    }
-
-    .latest-container {
-        position: relative;
-        right: 15px;
-        top: 45px;
-    }
-
-    .see-link {
-        position: relative;
-        right: 830px;
-        font-size: 15px;
-    }
-
-    .space-apps-gear {
-        padding-top: 25px;
-    }
-
-    .price, .up {
-        width: 99%;
-    }
-
-    .list-fun {
-        width: 60%;
-    }
-
-    .list-fun a {
-        font-size: 15px;
-    }
-
-    .fund-index {
-        font-size: 25px;
-    }
-
-    .left-right-border {
-        border-left: none;
-        border-right: none;
-        position: relative;
-        right: 20px;
-    }
-
-    .main-cover {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-        margin: 0 10px 0 10px;
-    }
-
-    .affor1 {
-        width: 107.5%;
-        height: 150px;
-    }
-
-    .affordable1,
-    .affordable2 {
-        position: relative;
-        right: 85px;
-        height: 150px;
-        width: 110%;
-        margin: 5px;
-    }
-
-    .affordable2 {
-        position: relative;
-        bottom: 265px;
-    }
-
-    .affordable_agri {
-        position: relative;
-        right: 30px;
-    }
-
-    .affor1 h2 h5 {
-        font-size: 10px;
-    }
-
-    .tnw-logo {
-        display: none;
-    }
-
-    .para-camels {
-        margin-top: -250px;
-    }
-
-    .response-logo  {
-        padding-top: 10px;
-    }
-
-    .nav-sub-container {
-        display: none;
-    }
-
-    .nav-container {
-        display: none;
-    }
-
-    .sm-nav {
-        display: block;
-        background-color: white;
-        height: 43px;
-    }
-
-    .sm-nav i {
-        color: black;
-        float: right;
-        padding: 15px 15px;
-        height: 43px;
-    }
-
-    #menu {
-        color: red;
-    }
-
-    #sm-search {
-        border-left: 1px silver solid;
-        border-right: 1px silver solid;
-    }
-
-
-    .fund-main {
-        position: relative;
-        left: 30px;
-    }
-
-    .derma {
-        position: relative;
-        left: 20px;
-    }
-
-    .fund-header {
-        position: relative;
-        left: 30px;
-    }
-
-    .list-fun li {
-        margin: 0 20px 0 20px;
-    }
-
-    .left-right-border {
-        position: relative;
-        left: 1px;
-    }
-
-    .media-fund {
-        width: 305px;
-    }
-
-    .reprot {
-        font-size: 12px;
-    }
-
-    .isra {
-        font-size: 12px;
-    }
-
-    .my-rep {
-        position: relative;
-        top: 15px;
-    }
-
-    .reprot1 {
-        position: relative;
-        top: 15px;
-    }
-
-    .camels,
-    .noCamels {
-        position: relative;
-        bottom: 30px;
-    }
-
-    .para-camels  {
-        position: relative;
-        bottom: 20px;
-    }
-
-    .cam_p {
-        font-size: 12px;
-    }
-
-    body {
-        position: relative;
-        right: 10px;
-    }
-
-    .latest-main-content {
-        padding-top: 130px;
-    }
-    .main-cover {
-        position: relative;
-        left: 13px;
-    }
-
-    .cdn-img,
-    .my_mug,
-    .my_prime,
-    .my_podium,
-    .own_games,
-    .tech-img,
-    .my-gear,
-    .my_netflix {
-        display: none;
-    }
-
-    .my {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/09/shutterstock_289123022_Wikipedia-1200x600.jpg");
-        background-size: cover;
-        width: 305px;
-        height: 250px;
-    }
-
-    .mug {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
-        background-size: cover;
-        width: 305px;
-        height: 250px;
-        position: relative;
-        left: 30px;
-    }
-
-    .img_pri {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-39-368x276.jpg");
-        background-size: cover;
-        width: 305px;
-        height: 250px;
-        position: relative;
-        left: 30px;
-    }
-
-    .img_podiu {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design20-368x276.png");
-        background-size: cover;
-        width: 305px;
-        height: 250px;
-        position: relative;
-        left: 30px;
-    }
-
-    .my_most {
-        position: relative;
-        top: 110px;
-    }
-
-    .my_game {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-368x276.jpg");
-        background-size: cover;
-        width: 305px;
-        height: 250px;
-        position: relative;
-        left: 30px;
-    }
-
-    .tek {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/blackface-368x276.jpg");
-        background-size: cover;
-        width: 305px;
-        height: 250px;
-        position: relative;
-        left: 30px;
-    }
-
-    .img_gear {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg");
-        background-size: cover;
-        width: 305px;
-        height: 240px;
-        position: relative;
-        left: 30px;
-    }
-
-    .net {
-        background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
-        background-size: cover;
-        width: 305px;
-        height: 240px;
-        position: relative;
-        left: 30px;
-    }
-
-    .social {
-        position: relative;
-        width: 68%;
-    }
-
-    .special-icon1 {
-        position: absolute !important;
-        top: 60px;
-        float: left;
-        float: right;
-    }
+      border: none;
+  }
+
+  .latest-img2,
+  .latest-img,
+  .machine-img,
+  .cert-img {
+      width: 85px;
+      height:75px;
+      padding: 7px;
+  }
+
+  .latest-news div {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      padding-right: 150px;
+      width: 790px;
+  }
+
+  .latest-news1 a {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      width: 700px;
+  }
+
+  .reprot {
+      margin-left: -250px;
+  }
+
+  .reprot1 {
+      margin-top: -40px;
+      margin-left: 100px;
+  }
+
+  .latest-news p {
+      position: relative;
+      right: 220px;
+      top: 15px;
+      font-size: 15px;
+  }
+
+  .footer2 p {
+      width: 50%;
+      position: relative;
+      top: 10px;
+      left: 60px;
+  }
+
+  .my_see {
+      position: relative;
+      right: 30px;
+  }
+
+  .foo-link {
+      font-size: 12px;
+      position: relative;
+      right: 8%;
+      top: 35px;
+      margin: 1px;
+  }
+
+  .apps-gear a {
+      font-size: 13px;
+      font-weight: 0;
+  }
+
+  .apps-gear ul {
+      margin: 0 30px 0 30px;
+  }
+
+  .my_distact {
+      position: relative;
+      left: 27px;
+      bottom: 5px;
+  }
+
+  .cdn-img{
+      width: 305px;
+  }
+
+  .most-popular {
+      font-size: 13px;
+  }
+
+  .description {
+      font-size: 15px;
+  }
+
+  .published {
+      font-size: 13px;
+  }
+
+  .my_prime,
+  .my_podium,
+  .my_mug,
+  .own_games,
+  .tech-img,
+  .my-gear,
+  .my_netflix{
+      width: 305px;
+      margin: 0 30px 0 30px;
+  }
+
+  .latest-gear {
+      margin: 0 30px 0 30px;
+  }
+
+  .distract-img {
+      margin: 0 30px 0 30px;
+  }
+
+  .footer1 {
+      height: 200px;
+      width: 150%;
+  }
+
+  .smedia li {
+      margin: 2px;
+  }
+
+  .footer2 {
+      height: 130px;
+      width: 150%;
+  }
+
+  .latest-container {
+      position: relative;
+      right: 15px;
+      top: 45px;
+  }
+
+  .see-link {
+      position: relative;
+      right: 830px;
+      font-size: 15px;
+  }
+
+  .space-apps-gear {
+      padding-top: 25px;
+  }
+
+  .price, .up {
+      width: 99%;
+  }
+
+  .list-fun {
+      width: 60%;
+  }
+
+  .list-fun a {
+      font-size: 15px;
+  }
+
+  .fund-index {
+      font-size: 25px;
+  }
+
+  .left-right-border {
+      border-left: none;
+      border-right: none;
+      position: relative;
+      right: 20px;
+  }
+
+  .main-cover {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 100%;
+      margin: 0 10px 0 10px;
+  }
+
+  .affor1 {
+      width: 107.5%;
+      height: 150px;
+  }
+
+  .affordable1,
+  .affordable2 {
+      position: relative;
+      right: 85px;
+      height: 150px;
+      width: 110%;
+      margin: 5px;
+  }
+
+  .affordable2 {
+      position: relative;
+      bottom: 265px;
+  }
+
+  .affordable_agri {
+      position: relative;
+      right: 30px;
+  }
+
+  .affor1 h2 h5 {
+      font-size: 10px;
+  }
+
+  .tnw-logo {
+      display: none;
+  }
+
+  .para-camels {
+      margin-top: -250px;
+  }
+
+  .response-logo  {
+      padding-top: 10px;
+  }
+
+  .nav-sub-container {
+      display: none;
+  }
+
+  .nav-container {
+      display: none;
+  }
+
+  .sm-nav {
+      display: block;
+      background-color: white;
+      height: 43px;
+  }
+
+  .sm-nav i {
+      color: black;
+      float: right;
+      padding: 15px 15px;
+      height: 43px;
+  }
+
+  #menu {
+      color: red;
+  }
+
+  #sm-search {
+      border-left: 1px silver solid;
+      border-right: 1px silver solid;
+  }
+
+
+  .fund-main {
+      position: relative;
+      left: 30px;
+  }
+
+  .derma {
+      position: relative;
+      left: 20px;
+  }
+
+  .fund-header {
+      position: relative;
+      left: 30px;
+  }
+
+  .list-fun li {
+      margin: 0 20px 0 20px;
+  }
+
+  .left-right-border {
+      position: relative;
+      left: 1px;
+  }
+
+  .media-fund {
+      width: 305px;
+  }
+
+  .reprot {
+      font-size: 12px;
+  }
+
+  .isra {
+      font-size: 12px;
+  }
+
+  .my-rep {
+      position: relative;
+      top: 15px;
+  }
+
+  .reprot1 {
+      position: relative;
+      top: 15px;
+  }
+
+  .camels,
+  .noCamels {
+      position: relative;
+      bottom: 30px;
+  }
+
+  .para-camels  {
+      position: relative;
+      bottom: 20px;
+  }
+
+  .cam_p {
+      font-size: 12px;
+  }
+
+  body {
+      position: relative;
+      right: 10px;
+  }
+
+  .latest-main-content {
+      padding-top: 130px;
+  }
+  .main-cover {
+      position: relative;
+      left: 13px;
+  }
+
+  .cdn-img,
+  .my_mug,
+  .my_prime,
+  .my_podium,
+  .own_games,
+  .tech-img,
+  .my-gear,
+  .my_netflix {
+      display: none;
+  }
+
+  .my {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/09/shutterstock_289123022_Wikipedia-1200x600.jpg");
+      background-size: cover;
+      width: 305px;
+      height: 250px;
+  }
+
+  .mug {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-368x276.jpg");
+      background-size: cover;
+      width: 305px;
+      height: 250px;
+      position: relative;
+      left: 30px;
+  }
+
+  .img_pri {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design-39-368x276.jpg");
+      background-size: cover;
+      width: 305px;
+      height: 250px;
+      position: relative;
+      left: 30px;
+  }
+
+  .img_podiu {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design20-368x276.png");
+      background-size: cover;
+      width: 305px;
+      height: 250px;
+      position: relative;
+      left: 30px;
+  }
+
+  .my_most {
+      position: relative;
+      top: 110px;
+  }
+
+  .my_game {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-368x276.jpg");
+      background-size: cover;
+      width: 305px;
+      height: 250px;
+      position: relative;
+      left: 30px;
+  }
+
+  .tek {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/blackface-368x276.jpg");
+      background-size: cover;
+      width: 305px;
+      height: 250px;
+      position: relative;
+      left: 30px;
+  }
+
+  .img_gear {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Google-Pixel-4-1-of-7-368x276.jpg");
+      background-size: cover;
+      width: 305px;
+      height: 240px;
+      position: relative;
+      left: 30px;
+  }
+
+  .net {
+      background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.99) 0%, rgba(12, 10, 9, 0.34) 50%, rgba(23, 19, 18, 0.99) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
+      background-size: cover;
+      width: 305px;
+      height: 240px;
+      position: relative;
+      left: 30px;
+    }
+
+  .social {
+      position: relative;
+      width: 68%;
+  }
+
+  .special-icon1 {
+      position: absolute !important;
+      top: 60px;
+      float: left;
+      float: right;
+  }
 }
